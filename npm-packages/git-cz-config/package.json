@@ -1,0 +1,29 @@
+{
+  "name": "@zhumeisong/git-cz-config",
+  "version": "1.4.2",
+  "type": "commonjs",
+  "keywords": [
+    "commitizen",
+    "cz-customizable",
+    "cz-config",
+    "cz",
+    "config"
+  ],
+  "private": false,
+  "dependencies": {
+    "@zhumeisong/semantic-release-config": "^1.3.3"
+  },
+  "main": "./index.cjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhumeisongsong/multiple-products-workspace.git",
+    "directory": "npm-packages/git-cz-config"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  },
+  "readme": "README.md",
+  "license": "MIT"
+}
