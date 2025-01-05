@@ -1,5 +1,5 @@
 {
-  "name": "@zhumeisong/git-cz-config",
+  "name": "@polgubau/git-cz-config",
   "version": "1.4.2",
   "type": "commonjs",
   "keywords": [
@@ -16,7 +16,7 @@
   "main": "./index.cjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhumeisongsong/multiple-products-workspace.git",
+    "url": "git+https://github.com/polgubau/multiple-products-workspace.git",
     "directory": "npm-packages/git-cz-config"
   },
   "publishConfig": {

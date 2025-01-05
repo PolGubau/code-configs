@@ -1,25 +1,21 @@
 {
-  "name": "@zhumeisong/semantic-release-config",
-  "version": "1.3.3",
-  "type": "commonjs",
-  "keywords": [
-    "semantic-release",
-    "monorepo",
-    "monolithic"
-  ],
-  "private": false,
-  "dependencies": {},
-  "main": "./index.cjs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhumeisongsong/multiple-products-workspace.git",
-    "directory": "npm-packages/semantic-release-config"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest",
-    "access": "public"
-  },
-  "readme": "README.md",
-  "license": "MIT"
+	"name": "@polgubau/semantic-release-config",
+	"version": "1.3.3",
+	"type": "commonjs",
+	"keywords": ["semantic-release", "monorepo", "monolithic"],
+	"private": false,
+	"dependencies": {},
+	"main": "./index.cjs",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/polgubau/multiple-products-workspace.git",
+		"directory": "npm-packages/semantic-release-config"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"tag": "latest",
+		"access": "public"
+	},
+	"readme": "README.md",
+	"license": "MIT"
 }
