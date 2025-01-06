@@ -1,3 +1,10 @@
+# 1.0.0 (2025-01-06)
+
+
+### Features
+
+* **common-error-exception:** remove deprecated files and update package names ([ec05a80](https://github.com/PolGubau/code-configs/commit/ec05a80d365309b76bec4b4ebdab4f93a0ebb60b))
+
 ## [1.3.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.3.2...semantic-release-config-v1.3.3) (2024-12-15)
 
 
