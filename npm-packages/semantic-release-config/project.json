@@ -1,5 +1,5 @@
 {
-  "name": "@zhumeisong/semantic-release-config",
+  "name": "@polgubau/semantic-release-config",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "npm-packages/semantic-release-config/src",
   "targets": {

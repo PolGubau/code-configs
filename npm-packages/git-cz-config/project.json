@@ -1,5 +1,5 @@
 {
-  "name": "@zhumeisong/git-cz-config",
+  "name": "@polgubau/git-cz-config",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "npm-packages/git-cz-config/src",
   "targets": {
