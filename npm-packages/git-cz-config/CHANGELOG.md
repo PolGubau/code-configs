@@ -5,6 +5,13 @@
 
 * **common-error-exception:** remove deprecated files and update package names ([ec05a80](https://github.com/PolGubau/code-configs/commit/ec05a80d365309b76bec4b4ebdab4f93a0ebb60b))
 
+# 1.0.0 (2025-01-06)
+
+
+### Features
+
+* **common-error-exception:** remove deprecated files and update package names ([ec05a80](https://github.com/PolGubau/code-configs/commit/ec05a80d365309b76bec4b4ebdab4f93a0ebb60b))
+
 ## [1.4.2](https://github.com/polgubausong/multiple-products-workspace/compare/git-cz-config-v1.4.1...git-cz-config-v1.4.2) (2024-12-15)
 
 
