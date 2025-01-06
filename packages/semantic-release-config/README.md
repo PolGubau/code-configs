@@ -1,4 +1,4 @@
-# @zhumeisong/semantic-release-config
+# @polgubau/semantic-release-config
 
 Semantic release config for publishing NPM packages to GitHub and NPM registry. This config includes:
 
@@ -15,16 +15,16 @@ Semantic release config for publishing NPM packages to GitHub and NPM registry. 
 
 `pnpm install semantic-release semantic-release-npm-github-publish @semantic-release/changelog @semantic-release/git semantic-release-plus -D`
 
-### 2. Install @zhumeisong/semantic-release-config:
+### 2. Install @polgubau/semantic-release-config:
 
-`pnpm install @zhumeisong/semantic-release-config`
+`pnpm install @polgubau/semantic-release-config`
 
 ### 3. Create a `release.config.cjs` file in your project root and add:
 
 ```
 const {
   createMonorepoReleaseConfig,
-} = require('@zhumeisong/semantic-release-config');
+} = require('@polgubau/semantic-release-config');
 
 const name = 'your-package-name';
 const srcRoot = './your-package-src-root';
@@ -53,7 +53,7 @@ type: `string`
 
 default: ``
 
-example: `@zhumeisong/semantic-release-config`
+example: `@polgubau/semantic-release-config`
 
 ### srcRoot
 
@@ -63,7 +63,7 @@ type: `string`
 
 default: `./`
 
-example: `npm-packages/semantic-release-config`
+example: `packages/semantic-release-config`
 
 ### pkgRoot
 
@@ -73,7 +73,7 @@ type: `string`
 
 default: `dist/`
 
-example: `dist/npm-packages/semantic-release-config`
+example: `dist/packages/semantic-release-config`
 
 ### branches
 

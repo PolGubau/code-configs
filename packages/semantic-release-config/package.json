@@ -13,7 +13,7 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/polgubau/multiple-products-workspace.git",
-		"directory": "npm-packages/semantic-release-config"
+		"directory": "packages/semantic-release-config"
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org/",
