@@ -11,58 +11,5 @@
 			"!{projectRoot}/src/test-setup.[jt]s"
 		],
 		"sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
-	},
-	"plugins": [
-		{
-			"plugin": "@nx/vite/plugin",
-			"options": {
-				"buildTargetName": "build",
-				"testTargetName": "test",
-				"serveTargetName": "serve",
-				"serveStaticTargetName": "serve-static",
-				"typecheckTargetName": "typecheck"
-			}
-		},
-		{
-			"plugin": "@nx/eslint/plugin",
-			"options": {
-				"targetName": "lint"
-			}
-		},
-		{
-			"plugin": "@nx/playwright/plugin",
-			"options": {
-				"targetName": "e2e"
-			}
-		}
-	],
-	"targetDefaults": {
-		"e2e-ci--**/*": {
-			"dependsOn": ["^build"]
-		},
-		"@nx/vite:build": {
-			"cache": true,
-			"dependsOn": ["^build"],
-			"inputs": ["production", "^production"]
-		},
-		"@nx/js:tsc": {
-			"cache": true,
-			"dependsOn": ["^build"],
-			"inputs": ["production", "^production"]
-		}
-	},
-	"generators": {
-		"@nx/react": {
-			"application": {
-				"babel": true,
-				"linter": "eslint",
-				"bundler": "vite"
-			},
-
-			"library": {
-				"linter": "eslint",
-				"unitTestRunner": "vitest"
-			}
-		}
 	}
 }

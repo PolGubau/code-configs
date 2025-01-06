@@ -1,57 +1,55 @@
 {
-  "name": "@polgubau/biome-config",
-  "version": "1.0.0",
-  "description": "Personal Biome config for React related projects.",
-  "keywords": [
-    "biome",
-    "biomejs",
-    "config",
-    "configuration",
-    "pol",
-    "polgubau"
-  ],
-  "homepage": "https://configs.polgubau.com",
-  "bugs": "https://github.com/PolGubau/configs/issues",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PolGubau/configs.git",
-    "directory": "packages/biome"
-  },
-  "license": "MIT",
-  "author": "Pol Gubau Amores",
-  "contributors": [
-    "Pol Gubau Amores <gubaupol@gmail.com>"
-  ],
-  "type": "module",
-  "exports": {
-    "./biome": "./biome.json"
-  },
-  "main": "biome.json",
-  "files": [],
-  "scripts": {
-    "check-biome": "biome rage --formatter --linter",
-    "format": "biome check --write --verbose",
-    "lint": "biome lint --verbose",
-    "release": "semantic-release"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.0",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/release-notes-generator": "14.0.2",
-    "conventional-changelog-conventionalcommits": "8.0.0",
-    "semantic-release": "24.2.0"
-  },
-  "peerDependencies": {
-    "@biomejs/biome": ">=1.9.0"
-  },
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "publishPath": "./",
-    "registry": "https://registry.npmjs.org/"
-  }
+	"name": "@polgubau/biome-config",
+	"version": "1.0.0",
+	"description": "Personal Biome config for React related projects.",
+	"keywords": [
+		"biome",
+		"biomejs",
+		"config",
+		"configuration",
+		"pol",
+		"polgubau"
+	],
+	"homepage": "https://configs.polgubau.com",
+	"bugs": "https://github.com/PolGubau/configs/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PolGubau/configs.git",
+		"directory": "packages/biome"
+	},
+	"license": "MIT",
+	"author": "Pol Gubau Amores",
+	"contributors": ["Pol Gubau Amores <gubaupol@gmail.com>"],
+	"type": "module",
+	"exports": {
+		"./biome": "./biome.json"
+	},
+	"main": "biome.json",
+	"files": [],
+	"scripts": {
+		"check-biome": "biome rage --formatter --linter",
+		"format": "biome check --write --verbose",
+		"lint": "biome lint --verbose",
+		"release": "semantic-release"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.0",
+		"@semantic-release/changelog": "6.0.3",
+		"@semantic-release/commit-analyzer": "13.0.0",
+		"@semantic-release/git": "10.0.1",
+		"@semantic-release/release-notes-generator": "14.0.2",
+		"conventional-changelog-conventionalcommits": "8.0.0",
+		"semantic-release": "24.2.0"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": ">=1.9.0"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"publishConfig": {
+		"access": "public",
+		"publishPath": "./",
+		"registry": "https://registry.npmjs.org/"
+	}
 }
