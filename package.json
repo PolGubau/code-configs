@@ -35,7 +35,7 @@
 		"@polgubau/git-cz-config": "^1.0.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"git-cz": "^4.9.0",
- 		"nx": "20.3.0",
+		"nx": "20.3.0",
 		"semantic-release": "^24.1.2",
 		"semantic-release-npm-github-publish": "^1.5.5",
 		"semantic-release-plus": "^20.0.0",

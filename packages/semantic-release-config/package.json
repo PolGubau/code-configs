@@ -2,11 +2,7 @@
 	"name": "@polgubau/semantic-release-config",
 	"version": "1.0.0",
 	"type": "commonjs",
-	"keywords": [
-		"semantic-release",
-		"monorepo",
-		"monolithic"
-	],
+	"keywords": ["semantic-release", "monorepo", "monolithic"],
 	"private": false,
 	"dependencies": {},
 	"main": "./index.cjs",
@@ -21,5 +17,10 @@
 		"access": "public"
 	},
 	"readme": "README.md",
-	"license": "MIT"
+	"license": "MIT",
+	"config": {
+		"commitizen": {
+			"path": "git-cz"
+		}
+	}
 }

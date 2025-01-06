@@ -51,5 +51,10 @@
 		"access": "public",
 		"publishPath": "./",
 		"registry": "https://registry.npmjs.org/"
+	},
+	"config": {
+		"commitizen": {
+			"path": "git-cz"
+		}
 	}
 }

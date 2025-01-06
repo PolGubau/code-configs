@@ -1,29 +1,28 @@
 {
-  "name": "@polgubau/git-cz-config",
-  "version": "1.0.0",
-  "type": "commonjs",
-  "keywords": [
-    "commitizen",
-    "cz-customizable",
-    "cz-config",
-    "cz",
-    "config"
-  ],
-  "private": false,
-  "dependencies": {
-    "@polgubau/semantic-release-config": "^1.0.0"
-  },
-  "main": "./index.cjs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/polgubau/multiple-products-workspace.git",
-    "directory": "packages/git-cz-config"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest",
-    "access": "public"
-  },
-  "readme": "README.md",
-  "license": "MIT"
+	"name": "@polgubau/git-cz-config",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"keywords": ["commitizen", "cz-customizable", "cz-config", "cz", "config"],
+	"private": false,
+	"dependencies": {
+		"@polgubau/semantic-release-config": "^1.0.0"
+	},
+	"main": "./index.cjs",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/polgubau/multiple-products-workspace.git",
+		"directory": "packages/git-cz-config"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"tag": "latest",
+		"access": "public"
+	},
+	"readme": "README.md",
+	"license": "MIT",
+	"config": {
+		"commitizen": {
+			"path": "git-cz"
+		}
+	}
 }
